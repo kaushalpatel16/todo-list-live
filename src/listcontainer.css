@@ -1,0 +1,83 @@
+.imgctn{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.startcontainer{
+    justify-content: center;
+    display: flex;
+    margin-top: 20%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.starttext1{
+    margin-top: 5%;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.starttext2{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.486);
+}
+.btncontainer{
+   justify-content: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 10%;
+}
+.ListConatiner{
+  height: 70%;
+}
+.btn{
+    background-color: #30dd9be5;
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    border: 2px;
+    color: rgba(0, 0, 0, 0.534);
+    font-size: 40px;
+    cursor: pointer;  
+}
+.tasklist{
+    height: 315px!important;
+    overflow-y: auto;
+    width: 250px!important;
+    display: flex;
+    flex-direction: column;
+}
+
+.space{
+    justify-content: center;
+    display: flex;
+    margin-top: 30%;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.text{
+    padding: 0.5 rem;
+}
+
+::-webkit-scrollbar {
+    width: 4px; /* Adjust the width as desired */
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle (the draggable part of the scrollbar) */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(185, 185, 185);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }  

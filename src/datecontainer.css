@@ -1,0 +1,25 @@
+.datemain{
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+.DateContainer{
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+}
+
+.daydate{
+    font-size: 40px;
+    font-weight:600;
+    padding: 3px;
+}
+.monthyear{
+    font-size:13px;
+    flex-direction: column;
+    display: flex;
+}
+.datename{
+  font-size:  15px;
+}

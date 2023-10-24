@@ -1,0 +1,42 @@
+.chkbox{
+
+    appearance: none;
+    border: 2px solid #333;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 24px;
+    position: relative;
+    width: 24px;
+
+}
+.textimg{
+    width: 25px;
+    height: 25px;
+    
+}
+.divimg{
+    padding: 3px;
+}
+.task-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.task-itemimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 2.5px;
+}
+.tasktext{
+    font-size: 16px;
+    padding: 15px 0;
+}
+.tasktextimg{
+    font-size: 16px;
+    padding: 15px 0;
+    opacity: .7!important;
+}
